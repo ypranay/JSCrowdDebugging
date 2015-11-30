@@ -3,8 +3,7 @@
 Fetch top 50,000 Q&A posts pertaining to JavaScript from StackExchange. Check. (Available in a file - query.csv)
 ##Step 2:
 Find out relevant Q&A code pairs which can be used for Crowd Debugging. Following are my assumptions-
-  1. Out of the many <code> </code> separated texts in the posts, choose the one of the maximum length. Higher chance of being relevant.
-  2. If a post contains only text and no code snippets, silently ignore.
+Out of the many <code> </code> separated texts in the posts, choose the one of the maximum length. Higher chance of being relevant. If a post contains only text and no code snippets, silently ignore.
 ##Step 3:
 Output the code snippets for Q&A in separate JS files, IDed by the Question and Answer post IDs from which they were extracted.
 ##Step 4: 
