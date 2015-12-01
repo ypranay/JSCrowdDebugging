@@ -9,7 +9,7 @@ for line in fp:
 map_target_threshold={}
 map_threshold_count = {}
 for k,v in map_target_parent:
-	for t in range(30,1,-2):
+	for t in range(30,1,-5):
 		if k not in map_target_threshold:
 			os.system("jsinspect -t "+str(t)+" --ignore "+k+" ./Questions")
 			fp = open(r'*.json',"r")
